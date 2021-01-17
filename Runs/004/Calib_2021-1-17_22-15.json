@@ -1,0 +1,40 @@
+{
+  "ProbeName": null,
+  "EditDate": "2021-01-17T22:15:10.6904706+01:00",
+  "Author": null,
+  "CalibrationValidUntil": "0001-01-01T00:00:00",
+  "CalibrationData": [
+    {
+      "RawTemperatur": -0.0625,
+      "ReferenceTemperature": -0.090588235294095446
+    },
+    {
+      "RawTemperatur": 14.8125,
+      "ReferenceTemperature": 15.101176470588257
+    },
+    {
+      "RawTemperatur": 29.757352941176471,
+      "ReferenceTemperature": 30.300000000000008
+    },
+    {
+      "RawTemperatur": 44.75,
+      "ReferenceTemperature": 45.17000000000003
+    },
+    {
+      "RawTemperatur": 59.6875,
+      "ReferenceTemperature": 60.049999999999983
+    },
+    {
+      "RawTemperatur": 74.6875,
+      "ReferenceTemperature": 75.148823529411743
+    },
+    {
+      "RawTemperatur": 89.625,
+      "ReferenceTemperature": 90.234705882352955
+    },
+    {
+      "RawTemperatur": 104.625,
+      "ReferenceTemperature": 105.23000000000002
+    }
+  ]
+}

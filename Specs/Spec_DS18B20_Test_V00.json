@@ -6,7 +6,7 @@
   "SetPoints": [
     {
       "Index": 1,
-      "Temperature": 20.0,
+      "Temperature": 25.0,
       "Tolerance": 1.5
     }
   ]
