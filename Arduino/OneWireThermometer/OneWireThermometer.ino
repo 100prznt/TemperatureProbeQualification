@@ -52,7 +52,6 @@ void loop()
     digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
   
     inStr = SerialUSB.readStringUntil(10);
-
     if (inStr == "*IDN?")
       SerialUSB.println(HARDWARE_NAME + String(" - 1-wire thermometer"));
     else if (inStr == "T?")
@@ -67,10 +66,8 @@ void loop()
         SerialUSB.println(FIRMWARE_VERSION);
     else if (inStr == "A?")
     {
-      //OneWire ow(ONE_WIRE_BUS_PIN);
       for (uint8_t i = 0; i < 8; i++)
       {
-        //SerialUSB.print("0x");
         if (address[i] < 0x10)
           SerialUSB.print("0");
         SerialUSB.print(address[i], HEX);
@@ -100,11 +97,7 @@ void loop()
       SerialUSB.println("T?       Performe and fetch a measurement");
     }
     else
-    {
       SerialUSB.println("Invalid command! Show supported commands with \"HELP?\"");
-    }
-
     digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
   }
-
 }
