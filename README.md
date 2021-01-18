@@ -1,4 +1,4 @@
-# Qualifizierungen verschiedener Temperatursensoren
+# Qualifizierung verschiedener Temperatursensoren
 
 Diese Repository nutze ich zur Ablage von Ergebnissen und Daten meiner Untersuchungen zu verschiedenen Temperatursensoren.
 
@@ -6,6 +6,7 @@ Im wesentlichen geht es bei den Untersuchungen um die Aufnahme von Kalibrierkenn
 
 
 ## Sensoren
+Untersucht werden folgende Sensoren:
 * PT100 (4-draht an ALMEMO)
 * NTC (4-draht an ALMEMO)
 * DS18B20
