@@ -13,7 +13,7 @@
 #define FIRMWARE_VERSION "0.02"
 #define HARDWARE_NAME "Arduino M0"
 
-#define ONE_WIRE_BUS_PIN 2 
+#define ONE_WIRE_BUS_PIN 2 //Pullup 4K7
 
 
 
