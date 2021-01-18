@@ -14,6 +14,8 @@ Im wesentlichen geht es bei den Untersuchungen um die Aufnahme von Kalibrierkenn
 ![Versuchsaufbau mit Fluke Blockkalibrator](/Docu/IMG_0576.jpeg)
 
 ### Temperaturverlauf
-
-![Temperature diagram](/Runs/004/temperature_diagram_detail75.png)
+#### Abgleich mit DS18B20 im Bereich von 0 - 105 °C (8 Stützstellen)
 ![Temperature diagram detail @ 75 °C](/Runs/004/temperature_diagram.png)
+
+##### 75 °C Stützstelle im detail
+![Temperature diagram](/Runs/004/temperature_diagram_detail75.png)
