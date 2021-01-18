@@ -12,3 +12,8 @@ Im wesentlichen geht es bei den Untersuchungen um die Aufnahme von Kalibrierkenn
 
 ## Aufbau
 ![Versuchsaufbau mit Fluke Blockkalibrator](/Docu/IMG_0576.jpeg)
+
+### Temperaturverlauf
+
+![Temperature diagram](/Runs/004/temperature_diagram_detail75.png)
+![Temperature diagram detail @ 75 °C](/Runs/004/temperature_diagram.png)
