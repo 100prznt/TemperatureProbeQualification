@@ -11,4 +11,4 @@ Im wesentlichen geht es bei den Untersuchungen um die Aufnahme von Kalibrierkenn
 * DS18B20
 
 ## Aufbau
-!(sf)[Docu/IMG_0576.jpeg]
+![Versuchsaufbau mit Fluke Blockkalibrator](/Docu/IMG_0576.jpeg)
