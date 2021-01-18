@@ -4,13 +4,13 @@
  * This program provides communication with a DS18B20 temperature
  * sensor which is connected to the Arduino at the defined pin.
  * Communication is made via the serial (USB) interface with the
- * connection parameters (9600/8-N-1) and the end sequence \n (<LF>;
+ * connection parameters (57600/8-N-1) and the end sequence \n (<LF>;
  * 0x0A). Showing of all supported commands with "HELP?".
  *
  * https://github.com/100prznt/TemperatureProbeQualification
  */
 
-#define FIRMWARE_VERSION "0.01"
+#define FIRMWARE_VERSION "0.02"
 #define HARDWARE_NAME "Arduino M0"
 
 #define ONE_WIRE_BUS_PIN 2 
@@ -33,7 +33,7 @@ void setup()
 {
   pinMode(LED_BUILTIN, OUTPUT);
   
-  SerialUSB.begin(9600); 
+  SerialUSB.begin(57600); 
   while (!SerialUSB)
   {
     ; // wait for serial port to connect. Needed for native USB port only
@@ -52,13 +52,13 @@ void loop()
     digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
   
     inStr = SerialUSB.readStringUntil(10);
-    if (inStr == "*IDN?")
+    if (inStr == "*IDN?" || inStr == "I?")
       SerialUSB.println(HARDWARE_NAME + String(" - 1-wire thermometer"));
     else if (inStr == "T?")
     {
       sensors.requestTemperatures(); // Send the command to get temperature readings 
       float temp = sensors.getTempCByIndex(0);
-      SerialUSB.println(temp, 5);
+      SerialUSB.println(temp, 4);
     }
     else if (inStr == "R?")
         SerialUSB.println(sensors.getResolution());
