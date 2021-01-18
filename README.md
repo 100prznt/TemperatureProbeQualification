@@ -9,3 +9,6 @@ Im wesentlichen geht es bei den Untersuchungen um die Aufnahme von Kalibrierkenn
 * PT100 (4-draht an ALMEMO)
 * NTC (4-draht an ALMEMO)
 * DS18B20
+
+## Aufbau
+!(sf)[Docu/IMG_0576.jpeg]
