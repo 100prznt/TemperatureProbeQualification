@@ -24,3 +24,10 @@ Herzstück des Aufbaus ist ein Blockkalibrator, welcher als hochgenaue Temperatu
 
 ##### DUT Error
 ![DUT Error](/Runs/004/dut_error.png)
+
+
+## Ziel der Untersuchung
+Ich möchte meine eigenen Temperatursensoren aufbauen. Diese sollen als inteligente Sensoren ausgeführt werden, also ein bereits mit der Kalibrierkennlinie verrechnetes Temperatursignel (digital) ausgeben.
+
+![Erster CAD Entwurf eines Tri-Clamp Sensors](Engineering/ASY_Thermowell_50_v2.jpeg)
+Erster CAD Entwurf eines Tri-Clamp Sensors
