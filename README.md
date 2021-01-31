@@ -12,7 +12,7 @@ Untersucht werden folgende Sensoren:
 * DS18B20
 
 ## Aufbau
-Herzstück des Aufbaus ist ein Blockkalibrator, welcher als hochgenaue Temperaturquelle dient. Das zu verfügung stehende Modell [Fluke 9170](https://www.fluke.com/de-de/produkt/kalibratoren/temperaturkalibratoren/fluke-calibration-9170) erreicht eine Stabilität von ±0,005 °C. Als Referenz kommt ein kalibrierter PT100 Sensor in Verbindung mit einem ALMEMO Präzisionsmessgerät zum Einsatz.
+Herzstück des Aufbaus ist ein Blockkalibrator, welcher als hochgenaue Temperaturquelle dient. Das zur verfügung stehende Modell [Fluke 9170](https://www.fluke.com/de-de/produkt/kalibratoren/temperaturkalibratoren/fluke-calibration-9170) erreicht eine Stabilität von ±0,005 °C. Als Referenz kommt ein kalibrierter PT100 Sensor in Verbindung mit einem ALMEMO Präzisionsmessgerät zum Einsatz.
 ![Versuchsaufbau mit Fluke Blockkalibrator](/Docu/IMG_0576.jpeg)
 
 ### Temperaturverlauf
