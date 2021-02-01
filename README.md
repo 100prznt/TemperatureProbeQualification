@@ -1,4 +1,4 @@
-# Qualifizierungen verschiedener Temperatursensoren
+# Qualifizierung verschiedener Temperatursensoren
 
 Diese Repository nutze ich zur Ablage von Ergebnissen und Daten meiner Untersuchungen zu verschiedenen Temperatursensoren.
 
@@ -6,11 +6,13 @@ Im wesentlichen geht es bei den Untersuchungen um die Aufnahme von Kalibrierkenn
 
 
 ## Sensoren
+Untersucht werden folgende Sensoren:
 * PT100 (4-draht an ALMEMO)
 * NTC (4-draht an ALMEMO)
 * DS18B20
 
 ## Aufbau
+Herzstück des Aufbaus ist ein Blockkalibrator, welcher als hochgenaue Temperaturquelle dient. Das zur verfügung stehende Modell [Fluke 9170](https://www.fluke.com/de-de/produkt/kalibratoren/temperaturkalibratoren/fluke-calibration-9170) erreicht eine Stabilität von ±0,005 °C. Als Referenz kommt ein kalibrierter PT100 Sensor in Verbindung mit einem ALMEMO Präzisionsmessgerät zum Einsatz.
 ![Versuchsaufbau mit Fluke Blockkalibrator](/Docu/IMG_0576.jpeg)
 
 ### Temperaturverlauf
@@ -22,3 +24,10 @@ Im wesentlichen geht es bei den Untersuchungen um die Aufnahme von Kalibrierkenn
 
 ##### DUT Error
 ![DUT Error](/Runs/004/dut_error.png)
+
+
+## Ziel der Untersuchung
+Ich möchte meine eigenen Temperatursensoren aufbauen. Diese sollen als inteligente Sensoren ausgeführt werden, also ein bereits mit der Kalibrierkennlinie verrechnetes Temperatursignel (digital) ausgeben.
+
+![Erster CAD Entwurf eines Tri-Clamp Sensors](Engineering/ASY_Thermowell_50_v2.jpeg)
+Erster CAD Entwurf eines Tri-Clamp Sensors
