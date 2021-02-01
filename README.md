@@ -12,7 +12,7 @@ Untersucht werden folgende Sensoren:
 * DS18B20
 
 ### DS18B20 Fälschungen
-Gerade die im DIY Bereich gern verwendetet DS18B20 in der fertig konfektionierten Ausführung mit Tauchhülse und Kabel sind leider meist Fälschungen. Was von diesen zu erwarten ist und was nicht geht aus der nachfolgenden Untersuchung hervor. Die im Artikel mit B1 Clone klassifizierten Sensorn und natürlich das Original (A1 Authentic Maxim DS18B20) sollen Teil meiner Qualifizierung sein.
+Gerade die im DIY Bereich gern verwendetet DS18B20 in der fertig konfektionierten Ausführung mit Tauchhülse und Kabel sind leider meist Fälschungen. Was von diesen zu erwarten ist und was nicht geht aus der nachfolgenden Untersuchung hervor. Die im Repo mit B1 Clone klassifizierten Sensoren und natürlich das Original (A1 Authentic Maxim DS18B20) sollen Teil meiner Qualifizierung sein.
 
 * [counterfeit_DS18B20](https://github.com/cpetrich/counterfeit_DS18B20) (von [cpetrich](https://github.com/cpetrich))
 
