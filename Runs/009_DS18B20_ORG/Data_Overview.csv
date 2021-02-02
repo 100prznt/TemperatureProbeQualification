@@ -1,0 +1,4 @@
+SetPoint [°C],Timestamp,Reference temperature [°C],DUT temperature [°C],Delta (error) [K]
+20,02.02.2021 10:00:19,20.2,19.8125,-0.387499999999989
+SetPoint [°C],Timestamp,Reference temperature [°C],DUT temperature [°C],Delta (error) [K]
+40,02.02.2021 10:23:55,40.14,39.5178571428571,-0.62214285714284

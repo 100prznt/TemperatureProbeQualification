@@ -1,0 +1,18 @@
+{
+  "Name": "Spec_DS18B20_Test_V01",
+  "Author": "Elias Ruemmler",
+  "HoldTime": "00:10:00",
+  "IppCount": 7,
+  "SetPoints": [
+    {
+      "Index": 1,
+      "Temperature": 20.0,
+      "Tolerance": 1.25
+    },
+    {
+      "Index": 2,
+      "Temperature": 40.0,
+      "Tolerance": 1.25
+    }
+  ]
+}
