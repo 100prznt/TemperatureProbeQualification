@@ -1,0 +1,38 @@
+{
+  "Name": "Spec_DS18B20_6T0_95_t9min",
+  "Author": "Elias Ruemmler",
+  "HoldTime": "00:09:00",
+  "IppCount": 17,
+  "SetPoints": [
+    {
+      "Index": 1,
+      "Temperature": 0.0,
+      "Tolerance": 1.25
+    },
+    {
+      "Index": 2,
+      "Temperature": 20.0,
+      "Tolerance": 1.25
+    },
+    {
+      "Index": 3,
+      "Temperature": 25.0,
+      "Tolerance": 1.25
+    },
+    {
+      "Index": 4,
+      "Temperature": 55.0,
+      "Tolerance": 1.25
+    },
+    {
+      "Index": 5,
+      "Temperature": 75.0,
+      "Tolerance": 1.25
+    },
+    {
+      "Index": 6,
+      "Temperature": 95.0,
+      "Tolerance": 1.25
+    }
+  ]
+}
