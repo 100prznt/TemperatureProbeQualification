@@ -1,0 +1,16 @@
+{
+  "ProbeName": null,
+  "EditDate": "2021-02-04T14:45:39.9523827+01:00",
+  "Author": null,
+  "CalibrationValidUntil": "0001-01-01T00:00:00",
+  "CalibrationData": [
+    {
+      "RawTemperatur": 19.919642857142858,
+      "ReferenceTemperature": 20.350000000000023
+    },
+    {
+      "RawTemperatur": 39.223214285714285,
+      "ReferenceTemperature": 39.819999999999993
+    }
+  ]
+}
